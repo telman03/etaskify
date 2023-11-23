@@ -1,12 +1,11 @@
 package com.etaskify.az.service;
 
 import com.etaskify.az.dto.CreateUserRequestDto;
-import com.etaskify.az.excepetion.EmailAlreadyUsedException;
+import com.etaskify.az.exception.EmailAlreadyUsedException;
 import com.etaskify.az.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.RequestMapping;
 import com.etaskify.az.repository.UserRepository;
 
 

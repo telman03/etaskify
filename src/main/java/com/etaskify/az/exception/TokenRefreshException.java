@@ -1,4 +1,4 @@
-package com.etaskify.az.excepetion;
+package com.etaskify.az.exception;
 
 public class TokenRefreshException extends RuntimeException {
     public TokenRefreshException(String message) {

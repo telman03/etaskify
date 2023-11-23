@@ -1,6 +1,6 @@
 package com.etaskify.az.service;
 
-import com.etaskify.az.excepetion.NotFoundException;
+import com.etaskify.az.exception.NotFoundException;
 import com.etaskify.az.model.enums.TaskStatus;
 import com.etaskify.az.model.Task;
 import com.etaskify.az.repository.TaskRepository;

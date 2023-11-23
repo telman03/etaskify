@@ -1,4 +1,4 @@
-package com.etaskify.az.excepetion;
+package com.etaskify.az.exception;
 
 public class AuthenticationException extends RuntimeException {
     public AuthenticationException(String message) {

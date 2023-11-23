@@ -1,4 +1,4 @@
-package com.etaskify.az.excepetion;
+package com.etaskify.az.exception;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException(String message) {
